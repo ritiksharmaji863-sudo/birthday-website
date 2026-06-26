@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Hansi ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Hearts -->
+    <div id="hearts-container"></div>
+    <!-- FLOATING BALLOONS -->
+    <div class="balloon-container">
+
+    <span class="balloon red"></span>
+
+    <span class="balloon blue"></span>
+
+    <span class="balloon yellow"></span>
+
+    <span class="balloon pink"></span>
+    <span class="balloon purple"></span>
+
+    <span class="balloon green"></span>
+
+    </div>
+
+    <!-- Countdown -->
+    <section id="countdown-section" class="active">
+        <h1 id="countdown">3</h1>
+    </section>
+
+    <!-- Welcome -->
+    <section id="welcome-section" class="page">
+        <h1>Happy Birthday Hanshika ❤️</h1>
+        <div class="cake">
+
+🎂
+
+</div>
+        <p>A small surprise made specially for you ✨</p>
+        <button onclick="nextPage('blessing-section')">
+            Open Surprise 🎁
+        </button>
+    </section>
+
+    <!-- Jagannath -->
+    <section id="blessing-section" class="page">
+        <h2>🙏 Blessings For You</h2>
+
+        <img src="images/images.jpg" alt="photo">
+
+        <p>
+            May Lord Jagannath bless you with happiness,
+            success and endless smiles.
+        </p>
+
+        <button onclick="nextPage('doll-section')">
+            Next ➜
+        </button>
+    </section>
+
+    <!-- Cute Doll -->
+    <section id="doll-section" class="page">
+        <h2>🧸 Keep Smiling</h2>
+
+        <div class="emoji">🧸</div>
+
+        <p>
+            Your smile makes every moment brighter ✨
+        </p>
+
+        <button onclick="nextPage('song-section')">
+            Next ➜
+        </button>
+    </section>
+
+    <!-- Songs -->
+    <section id="song-section" class="page">
+    <h2>🎵 Favourite Songs</h2>
+
+    <div class="card">
+        <p>Dooron Dooron ❤</p>
+        <audio controls>
+            <source src="songs/song1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="card">
+        <p>Finding her ❤</p>
+        <audio controls>
+            <source src="songs/song3.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="card">
+        <p>Jeene Laga Hoon ❤</p>
+        <audio controls>
+            <source src="songs/song2.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <button onclick="nextPage('food-section')">
+        Next ➜
+    </button>
+</section>
+
+    <!-- Food -->
+    <section id="food-section" class="page">
+        <h2>🍽️ Favourite Foods</h2>
+
+        <div class="bowl">🤍 White Rasgulla</div>
+        <div class="plate">🥔 Aloo Paratha</div>
+        <div class="bowl">🧀 Paneer Tikka</div>
+        <div class="bowl">🧀 White Sausce Pasta</div>
+
+        <button onclick="nextPage('cake-section')">
+            Next ➜
+        </button>
+    </section>
+
+    <!-- Cake -->
+    <section id="cake-section" class="page">
+        <h2>🍰 Red Velvet Pastry</h2>
+
+        <div class="emoji">🍰</div>
+
+        <button onclick="nextPage('funny-section')">
+            Next ➜
+        </button>
+    </section>
+
+    <!-- Funny -->
+    <section id="funny-section" class="page">
+        <h2>😂 Funny Memories</h2>
+        <h3> Your endless talks, your smile, and your little habits make me happy😊</h3>
+
+        <div class="chat">fatak se😂,
+        Ohw Ohw Ohw,
+        Tumhe pta h, 
+        Stupid </div>
+
+        <button onclick="nextPage('bike-section')">
+            Next ➜
+        </button>
+    </section>
+
+    <!-- Bike -->
+    <section id="bike-section" class="page">
+        <h2>🏍️ One day , I'do love to go on a bike ride with you and create some beautiful, endless memories.💞</h2>
+
+        <div class="bike">🏍️ 💨</div>
+
+        <button onclick="nextPage('final-section')">
+            Next ➜
+        </button>
+    </section>
+    
+
+    <!-- Final -->
+    <section id="final-section" class="page">
+        <h1>❤️ Happy Birthday Hansi ❤️</h1>
+
+        <p>
+            Thank you for being such a wonderful part of my life.
+            <br><br>
+            May your life always be filled with happiness,
+            success and beautiful memories.
+            <br><br>
+            You are truly someone special.
+        </p>
+
+        <button id="heartBtn">
+            ❤️ One Last Message ❤️
+        </button>
+
+        <div id="secretMessage">
+            No matter where life takes us,
+            you'll always be someone special to me. 🌹
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
